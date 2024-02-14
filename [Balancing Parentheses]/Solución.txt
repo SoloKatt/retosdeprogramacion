@@ -1,0 +1,26 @@
+Conceptos tratados:
+    -Habilidades básicas de programación, bucles, cadenas, resolución de problemas.
+    -El problema pone a prueba la capacidad del candidato para utilizar bucles y manejo
+    de cadenas.
+    -El candidato debe idear un algoritmo que, a partir de una palabra, encuentre el número
+    minimo de caracteres que deben insertarse para que una secuencia de corchetes esté equilibrada
+    en una complejidad de tiempo y espacio limitada.
+
+Parametros para la Solución:
+
+    Pista 1 ↓
+        Lleva la cuenta del balanceo en la cadena, es decir, el número de
+        '(' menos el número de ')'.
+
+    Pista 2 ↓
+        Una cadena es valida si el balance de esta es 0, y también cada prefijo
+        tiene un saldo positivo (no negativo). Siempre que tengamos un saldo negativo,
+        añadiremos '(' antes de él
+
+Solución Optima:
+    Llevamos la cuenta del saldo de la cadena, es decir, el número de '(' menos el número
+    de ')'. Una cadena es valida si su saldo es 0, y además cada prefijo tiene un saldo no negativo.
+
+    Consideremos ahora el saldo de cada prefijo de s. Si alguna vez es negativo (por ejemplo, -1),
+    debemos añadir un corchete '(' al principio. Además, si el saldo de s es positivo (digamos, +P),
+    debemos añadir P veces ')' paréntesis al final.
