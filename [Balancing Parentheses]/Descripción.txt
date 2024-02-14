@@ -1,0 +1,20 @@
+Descripción del problema:
+    Dada una cadena que consta de paréntesis izquierdo y derecho, '(' y ')'
+    equilibre los paréntesis insertando los que sean necesarios.
+    Determinar el número minimo de caracteres que deben insertarse.
+
+Ejemplo:
+
+    s = '(()))'
+
+    Se debera insertar 1 paréntesis izquierdo en el extremo de la cadena para
+    obtener '((()))'. La cadena se equilibra después de 1 inserción.
+
+    s = '))(('
+
+    Se debera insertar 2 paréntesis izquerdos al principio y 2 paréntesis derechos
+    al final de la cadena para obtener '(())(())' después de 4 inserciones.
+
+Restricciones:
+
+    1 <= longitud de s <= 10^5
