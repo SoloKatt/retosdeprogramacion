@@ -1,0 +1,27 @@
+El formato de entrada para pruebas personalizadas ↓
+
+    La primera línea copntiene una cadena, s, la cual sera la secuencia
+    inicial de paréntesis
+
+Primer ejemplo de caso de uso:
+
+    Ejemplo de la entrada (input):
+        STDIN: ())) → Función: s = '()))'
+
+    Ejemplo de la salida correspondiente:
+        2
+
+    Explicación:
+        Insertar un '(' 2 veces en el comienzo de la 
+        cadena para que sea valida: '((()))'
+
+Segundo ejemplo de caso de uso:
+
+    Ejemplo de la  entrada (input):
+        STDIN: ()() → Función: s = '()()'
+
+    Ejemplo de la salida correspondiente:
+        0
+
+    Explicación:
+        La secuencia es actualmente valida, asi que no se necesita insertar nada.
