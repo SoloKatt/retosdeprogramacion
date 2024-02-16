@@ -17,4 +17,4 @@ Ejemplo:
 
 Restricciones:
 
-    1 <= longitud de s <= 10^5
+    • 1 <= longitud de s <= 10^5

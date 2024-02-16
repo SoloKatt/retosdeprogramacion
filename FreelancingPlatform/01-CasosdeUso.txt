@@ -1,0 +1,17 @@
+El formato de entrada para pruebas personalizadas ↓
+
+    • La primera linea contiene un entero, NumeroProyectos
+    • La siguiente linea contiene un entero, n, que indica
+        el número de elementos en el arreglo ProyectoID[].
+    • Cada línea i de las n líneas siguientes (donde 0 <= i < n)
+        contiene un entero, ProyectoID[i]
+    • La siguiente linea con tiene un entero, n, que indica los
+        numeros de elementos en el arreglo de ofertas
+    • Cada línea i de las n líneas siguientes (donde 0 <= i < n)
+        contiene un entero, Ofertas[i]
+    
+Primer ejemplo de caso de uso:
+
+    Ejemplo de la entrada (input):
+
+    

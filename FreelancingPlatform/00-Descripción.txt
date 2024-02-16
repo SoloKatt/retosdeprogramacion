@@ -1,0 +1,54 @@
+Descripción del problema:
+    Un cliente ha publicado varios proyectos de desarrollo web en una plataforma
+    de autónomos, y varios desarrolladores web han presentado ofertas para estos
+    proyectos.
+
+    Dados los importes de las ofertas y sus correspondientes proyectos,
+    ¿cuál es el importe mínimo que puede pagar el cliente para que se 
+    completen todos los proyectos?
+
+Nota:
+    Si algún proyecto no tiene ofertas (bids), devuelve -1.
+
+Ejemplo:
+    NumeroProyectos = 3 proyectos
+    ProyectoID = [2, 0, 1, 2]
+    (Oferta) bid = [8, 7, 6, 9]
+
+    → ProyectoID[i] esta alineado con bid[i]
+    → El primer desarrollador web ofertó 8 unidades monetarias por el proyecto 2.
+    → El segundo desarrollador web ofertó 7 unidades monetarias por el proyecto 0.
+    → El tercer desarrollador web ofertó 6 unidades monetarias por el proyecto 1.
+    → El cuarto desarrollador web ofertó 9 unidades monetarias por el proyecto 2.
+
+    Sólo hay una opción para contratar al proyecto 0, y costará 7. Del mismo modo,
+    sólo hay una opción para el proyecto 1, que costará 6. Para  proyecto 2, lo
+    óptimo es contratar al primer desarrollador web, en lugar del cuarto, y hacerlo
+    costará 8. 
+    
+    Así que la respuesta final es 7 + 6 + 8 = 21.
+
+    Si en cambio hubiera n = 4 proyectos, la respuesta sería -1, 
+    ya que no se recibieron ofertas para el cuarto proyecto.
+
+Descripción de la función:
+
+    la función minCost tiene los siguientes parametros:
+        
+        → int NumeroProyectos: El total de numeros de proyectos por
+        el cliente (parte desde 0 a n)
+        → int ProyectoID[n]: un arreglo de enteros indicando los proyectos
+        por los que pujan los desarrolladores web autónomos.
+        → int Ofertas[n]: un arreglo de enteros indicando los precios de las ofertas
+        publicadas por los desarrolladores web autónomos
+
+Devuelve:
+
+    long: El minimo coste que el cliente puede gastar para completar todos los proyectos,
+    o -1 si algún proyecto no tiene ofertas.
+
+Restricciones:
+
+    • 1 <= NumeroProyectos, n <= 5*10^5
+    • 0 <= ProyectoID[i] < n
+    • 1 <= Ofertas[i] <= 10^9
