@@ -1,8 +1,8 @@
 Conceptos tratados:
-    -Habilidades básicas de programación, bucles, cadenas, resolución de problemas.
-    -El problema pone a prueba la capacidad del candidato para utilizar bucles y manejo
+    - Habilidades básicas de programación, bucles, cadenas, resolución de problemas.
+    - El problema pone a prueba la capacidad del candidato para utilizar bucles y manejo
     de cadenas.
-    -El candidato debe idear un algoritmo que, a partir de una palabra, encuentre el número
+    - El candidato debe idear un algoritmo que, a partir de una palabra, encuentre el número
     minimo de caracteres que deben insertarse para que una secuencia de corchetes esté equilibrada
     en una complejidad de tiempo y espacio limitada.
 

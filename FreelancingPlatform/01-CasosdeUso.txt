@@ -14,4 +14,62 @@ Primer ejemplo de caso de uso:
 
     Ejemplo de la entrada (input):
 
-    
+        STDIN (Entrada)     Funtion (Función)
+        2                →  NumeroProyectos = 2
+        5                →  ProyectoID[] tamaño n =5
+        
+        0                →  ProyectoID = [0, 1, 0, 1, 1]
+        1
+        0
+        1
+        1
+
+        5                →  Ofertas[] tamaño n = 5
+        
+        4                →  Ofertas = [4, 74, 47, 744, 7]
+        74
+        47
+        744
+        7
+
+    Ejemplo de la salida correspondiente:
+
+        11
+
+    Explicación:
+        Las ofertas son las siguientes:
+
+            • El primer desarrollador web ofertó 4 unidades monetarias por el proyecto 0.
+            • El segundo desarrollador web ofertó 74 unidades monetarias por el proyecto 1.
+            • El tercer desarrollador web ofertó 47 unidades monetarias por el proyecto 0.
+            • El cuarto desarrollador web ofertó 744 unidades monetarias por el proyecto 1.
+            • El quinto desarrollador web ofertó 7 unidades monetarias por el proyecto 1.
+
+        La solucion mas optima es contratar al primer desarrollador web para completar el
+        proyecto 0 (que cuesta 4) y contratar al quinto desarrollador web para completar el
+        proyecto 1 (que cuesta 7).
+
+        Esto eleva el costo total a 11
+
+Segundo Ejemplo de caso de uso:
+
+    Ejemplo de la entrada (input):
+
+        STDIN (Entrada)     Funtion (Función)
+        2                →  NumeroProyectos = 2
+        2                →  ProyectoID[] tamaño n =2
+        
+        1                →  ProyectoID = [1, 1]
+        1                
+        
+        2                →  Ofertas[] tamaño n = 2
+        
+        4                →  Ofertas = [4, 7]
+        7
+
+    Ejemplo de la salida correspondiente:
+
+        -1
+
+    Explicación:
+        Dado que no hay ofertas para el proyecto 0, la función debe devolver -1

@@ -1,0 +1,26 @@
+Conceptos tratados:
+    - Habilidades básicas de programación, bucles, arreglos, resolución de problemas.
+    - El problema pone a prueba la capacidad del candidato para usar bucles y manejo de arreglos
+    - Requiere que el candidato cree un algoritmo dado dos arreglos para encontrar la suma de los
+        valores minimos de cada tipo de proyecto en una complejidad limitada de tiempo y espacio
+    
+Parametros para la Solución:
+
+    Pista 1 ↓
+        La respuesta es -1 solo si hay algún proyecto que no haya sido licitado por ningún desarrollador
+
+    Pista 2 ↓
+        Para cada proyecto, tome la oferta del valor minimo de cualquier desarrollador.
+        La respuesta es la suma de los valores minimos ofertados para todos los proyectos.
+
+Solución Optima:
+    La respuesta es -1 solo si hay algún tipo de proyecto que no haya sido ofertado por ningún desarrollador.
+    De lo contrario, considere un arreglo de tamaño n y para cada desarrollador, actualice el valor minimo
+    de cada tipo de oferta por parte de todos los desarrolladores de 1 a m.
+    
+    La suma de estos valores mínimos para todos los tipos de 0 a n -1, pujada por los desarrolladores 
+    es la respuesta.
+
+Complejidad temporal:
+ 
+    O(n + m)

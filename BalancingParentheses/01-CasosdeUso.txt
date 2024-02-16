@@ -6,9 +6,11 @@ El formato de entrada para pruebas personalizadas ↓
 Primer ejemplo de caso de uso:
 
     Ejemplo de la entrada (input):
+
         STDIN: ())) → Función: s = '()))'
 
     Ejemplo de la salida correspondiente:
+
         2
 
     Explicación:
@@ -18,9 +20,11 @@ Primer ejemplo de caso de uso:
 Segundo ejemplo de caso de uso:
 
     Ejemplo de la  entrada (input):
+
         STDIN: ()() → Función: s = '()()'
 
     Ejemplo de la salida correspondiente:
+    
         0
 
     Explicación:
